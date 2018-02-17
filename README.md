@@ -5,7 +5,7 @@
 
 # jcb64
 
-Convert json to string, compress it and return a base64 encoded string.
+Convert json to string, compress it and return a urlsafe base64 encoded string.
 
 And the other way around.
 
