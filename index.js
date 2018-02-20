@@ -13,13 +13,13 @@ function urlDecode (encoded) {
   return encoded
 }
 
-module.exports.pack = function (json) {
+module.exports.pack = json => {
   const str = pako.deflate(JSON.stringify(json), {to: 'string'})
   const buf = Buffer.from(str)
   return urlEncode(buf.toString('base64'))
 }
 
-module.exports.unpack = function (b64) {
+module.exports.unpack = b64 => {
   const buf = Buffer.from(urlDecode(b64).toString('base64'), 'base64')
   const json = JSON.parse(pako.inflate(buf.toString(), { to: 'string' }))
   return json
