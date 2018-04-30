@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/jcb64.svg?branch=master)](https://travis-ci.org/zrrrzzt/jcb64)
 [![Coverage Status](https://coveralls.io/repos/zrrrzzt/jcb64/badge.svg?branch=master&service=github)](https://coveralls.io/github/zrrrzzt/jcb64?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/jcb64.svg)](https://greenkeeper.io/)
 
 # jcb64
 
