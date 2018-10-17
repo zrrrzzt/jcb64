@@ -14,7 +14,7 @@ function urlDecode (encoded) {
 }
 
 module.exports.pack = json => {
-  const str = pako.deflate(JSON.stringify(json), {to: 'string'})
+  const str = pako.deflate(JSON.stringify(json), { to: 'string' })
   const buf = Buffer.from(str)
   return urlEncode(buf.toString('base64'))
 }
