@@ -3,6 +3,9 @@
   "version": "1.1.4",
   "description": "Compress json and convert to base64",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "standard && ava",
     "test-offline": "standard && ava",
