@@ -27,5 +27,3 @@ console.log(json) //=> {key: 'value'}
 
 ## License
 [MIT](LICENSE)
-
-![Robohash image of jcb64](https://robots.kebabstudios.party/jcb64.png "Robohash image of jcb64")
