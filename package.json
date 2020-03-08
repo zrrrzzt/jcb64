@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/jcb64#readme",
   "dependencies": {
-    "buffer": "5.4.3",
+    "buffer": "5.5.0",
     "pako": "1.0.11"
   },
   "devDependencies": {
