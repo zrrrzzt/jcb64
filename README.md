@@ -17,7 +17,7 @@ const data = {
 }
 const b64 = pack(data)
 
-console.log('b64') //=> eMKcwqtWw4pOwq1UwrJSKkvDjClNVcKqBQAoTAUh
+console.log('b64') //=> eJyrVspOrVSyUipLzClNVaoFAChMBSE
 
 const json = unpack(b64)
 
