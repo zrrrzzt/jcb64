@@ -1,6 +1,6 @@
 {
   "name": "jcb64",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "Compress json and convert to base64",
   "main": "index.js",
   "files": [
