@@ -27,7 +27,7 @@
   "homepage": "https://github.com/zrrrzzt/jcb64#readme",
   "dependencies": {
     "buffer": "6.0.2",
-    "pako": "1.0.11"
+    "pako": "2.0.2"
   },
   "devDependencies": {
     "ava": "3.13.0",
